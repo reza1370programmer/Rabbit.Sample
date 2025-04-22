@@ -23,3 +23,5 @@ await Channel.BasicConsumeAsync("MyQueue", true, ConsumerEvent);
 
 Console.WriteLine("consumer finished");
 Console.ReadKey();
+
+//basic usage of rabbit includes declaring queue and using default exchange and specifying queue for exchange and consumer

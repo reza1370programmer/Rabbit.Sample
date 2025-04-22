@@ -14,3 +14,5 @@ var body = Encoding.UTF8.GetBytes(message);
 await Channel.BasicPublishAsync("", "MyQueue", body);
 Console.WriteLine("message sent");
 Console.ReadKey();
+
+//basic usage of rabbit includes declaring queue and using default exchange and specifying queue for exchange and consumer
